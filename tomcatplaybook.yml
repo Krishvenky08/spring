@@ -8,8 +8,7 @@
    - name: Download Open JDK
      become: yes
      apt:
-      name: openjdk-11-jre-headless
-      update_cache: yes
+      name: openjdk-8-jdk
       state: present
   
    - name: validate if Java is availble 
